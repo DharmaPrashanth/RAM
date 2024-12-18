@@ -1,0 +1,65 @@
+$date
+	Wed Dec 18 10:25:50 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module dual_port_ram_tb $end
+$var wire 8 ! q_b [7:0] $end
+$var wire 8 " q_a [7:0] $end
+$var reg 6 # addr_a [5:0] $end
+$var reg 6 $ addr_b [5:0] $end
+$var reg 1 % clk $end
+$var reg 8 & data_a [7:0] $end
+$var reg 8 ' data_b [7:0] $end
+$var reg 1 ( we_a $end
+$var reg 1 ) we_b $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1)
+1(
+b1000100 '
+b110011 &
+1%
+b10 $
+b1 #
+bx "
+bx !
+$end
+#5
+0%
+#10
+b110011 !
+1%
+0)
+b1 $
+b11 #
+b1010101 &
+#15
+0%
+#20
+b1000100 "
+b1010101 !
+1%
+0(
+b11 $
+b10 #
+#25
+0%
+#30
+b110011 "
+1%
+1)
+b10 $
+b1110111 '
+b1 #
+#35
+0%
